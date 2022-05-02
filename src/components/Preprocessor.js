@@ -84,7 +84,7 @@ class Preprocessor {
                         loader: 'resolve-url-loader',
                         options: {
                             sourceMap: true,
-                            engine: 'rework'
+                            engine: 'postCss'
                         }
                     });
                 }
